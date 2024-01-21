@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #5f25a6;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 5px;
+}
+.random{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 60px;
+}
+.reddit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.discord{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+.light{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.reddit img{
+    height: 24px;
+    width: 24px;
+}
+.twitter img{
+    height: 24px;
+    width: 24px;
+}
+.light img{
+    height: 24px;
+    width: 24px;
+    mix-blend-mode: color-burn;
+}
+.header{
+    height: 110px;
+    width: 100.7%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content:space-evenly;
+
+}
+.logo5 img{
+    height: 24px;
+    width: 24px;
+}
+.member{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.container{
+    height: 350px;
+    width: 100.7%;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;    
+    position: relative;
+}
+.search{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search-manga{
+    height: 60px;
+    width: 500px;
+    border-style: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.button button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #ffd702;
+}
+.button button img{
+    height: 24px;
+    width: 24px;
+}
+.homebutton button{
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+    background-color: #ffd702;   
+}
+.homebutton{
+    position: absolute;
+    top: 250px;
+}
+.text-container{
+    width: 100.7%;
+    height: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+}
+.textfinal{
+    height: 100%px;
+    width: 1000px;
+}
+.textfinal p{
+    font-size: small;
+}
+.textfinal ul li{
+    list-style: none;
+    font-size: small;
+    display: flex;
+    gap: 10px;
+}
